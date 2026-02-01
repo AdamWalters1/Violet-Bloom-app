@@ -1,0 +1,5 @@
+{
+  "name": "Violet Bloom - Smart Garden Hub",
+  "description": "An elegant, AI-enhanced IoT dashboard for the Violet Bloom ecosystem, monitoring environmental data via ESP32 and MQTT.",
+  "requestFramePermissions": []
+}

@@ -1,11 +1,24 @@
-<div align="center">
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+# Green PlantIt: Smart Garden Ecosystem
 
-  <h1>Built with AI Studio</h2>
+Green PlantIt is a modern, original IoT solution for precision plant monitoring and irrigation. It bridges the gap between your physical garden and the digital world using ESP32 hardware, a Flask/MQTT backend, and AI-driven insights.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## 🌿 Core Concept
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+Unlike generic monitors, **Green PlantIt** treats every sensor node as a dedicated "PlantIt Node," allowing for a scalable hub-and-spoke architecture where you can manage multiple environmental stations from a single interface.
 
-</div>
+## 🛠️ Tech Stack
+
+- **Dashboard**: React + TypeScript + Recharts.
+- **Intelligence**: Google Gemini AI (`gemini-3-flash-preview`).
+- **Communication**: MQTT (Mosquitto) for real-time ESP32 commands.
+- **Backend**: Python Flask REST API.
+
+## 🚀 Deployment
+
+1. **Station Setup**: Pair your ESP32 with the `HackViolet/AdamW/sensors` topic.
+2. **Backend**: Start `server.py` to bridge MQTT to the Web UI.
+3. **Frontend**: Access the Green PlantIt Hub to see live data and trigger irrigation.
+
+---
+*Grow smarter with Green PlantIt.*
